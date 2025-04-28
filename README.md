@@ -28,9 +28,14 @@ KG아이티뱅크에서 주간하는 프로젝트로, Eclipse 를 사용해서 G
 <details>
 <summary>✅ 로그인 (Login)</summary>
 
-+ 간편하게 로그인할 수 있도록 소셜 로그인 기능 구현
+ 01. [Login] 버튼
+ 02. [Sign Up] 버튼
++ 버튼을 눌렀을 때, 로그인이 되어 있지 않아서 ‘로그인 오류’ 라는 MSG박스를 나타내고, 로그인 페이지로 넘어간다.
++ *   로그인 전 메인 페이지   *
+로그인을 하지 않은 상태에서는 로그인, 회원가입 버튼을 제외한 모든 버튼 기능 사용 불가
 
-![image](https://github.com/user-attachments/assets/821deb90-cdad-47e1-acf0-cce358026e5d)
+![스크린샷 2025-04-28 150651](https://github.com/user-attachments/assets/e765de62-5d11-4fbf-809e-5c389eacd940)
+
 
 </details>
 
