@@ -1,7 +1,7 @@
 
 
 # TRAIN Project
-KG아이티뱅크에서 주간하는 Eclipse 를 사용해서 만든 gui입니다. Spring Framework 3.1.1.RELEASE을 사용했습니다.
+KG아이티뱅크에서 주간하는 Eclipse 를 사용해서 만든 gui입니다. 
 
 
 
@@ -16,6 +16,7 @@ KG아이티뱅크에서 주간하는 Eclipse 를 사용해서 만든 gui입니�
 
 ### 👑 팀장
 - 💎 **양평근**
+  
   -[GitHub](https://github.com/ypk0680)
 
 ### 🛠️ 팀원
