@@ -27,13 +27,6 @@ KG아이티뱅크에서 주간하는 프로젝트로, Eclipse 를 사용해서 G
 
 <details>
 <summary>✅ 로그인 (Login)</summary>
-
-----
-1.[Sign Up] 버튼
-  
-2.[Cancel] 버튼
-
-3.[Login] 버튼
   
 + 아이디(TextField)와 비밀번호(PasswordField)의 fx:id를 lookup 해서 그 필드에 해당하는 값을 가지고 데이터 베이스에 저장되어 있는 [회원 정보 테이블]에 접근하여, 조회되는 아이디와 비밀번호가 존재한다면 true, 존재 하지 않는다면 false 값을 출력해준다.
 
@@ -49,7 +42,7 @@ KG아이티뱅크에서 주간하는 프로젝트로, Eclipse 를 사용해서 G
 
 <details>
 <summary>✅ 회원 가입 (Sign up)</summary>
----
+
 + 정보 입력
 
 회원가입 할 이름, 아이디, 비밀번호, 전화번호, 성별, 이메일, 주소를 입력한다.
@@ -80,66 +73,98 @@ Cancel 버튼을 눌렀을 때, 다시 메인 페이지로 넘어가게 된다.
 
 ![image](https://github.com/user-attachments/assets/7663bd71-8f70-4106-86fb-8b0d1b056508)
 
-
-
-
-
 </details>
 
 <hr style="border: 3px solid #000;">
+<details>
+<summary>✅정보 수정 (My Page)</summary>
+  
+![스크린샷 2025-04-28 162501](https://github.com/user-attachments/assets/612e92c3-b222-4b02-84c3-e14bbde206e2)
+1. 사용자 정보
+  
+사용자의 정보를 보여주는 페이지, 이름, 아이디, 주소, 전화번호를 순서대로 보여준다. 
 
+2. [My Ticket] 버튼
+
+사용자의 정보를 보여주는 페이지, 이름, 아이디, 주소, 전화번호를 순서대로 보여준다. 
+
+4. [Mileage] 버튼
+
+History 버튼을 눌렀을 때, History 페이지로 넘어간다. 여기서 말하는 History는 이때까지 구매했던 기차표를 조회할 수 있다.
+
+5. [Logout] 버튼
+
+Logout 버튼을 눌렀을 때, MSG박스로 로그아웃이 되었다는 사실을 알려주고 로그아웃이 된다. 로그아웃이 된 후에는 자동으로 로그아웃이 된 메인 페이지로 넘어가게 된다.  
+
+7. [회원 탈퇴] 버튼
+
+MSG박스로 회원탈퇴가 완료되었다고 알려준 후, 로그인이 되어있지 않은 상태의 메인 페이지로 넘어간다.
+회원 탈퇴한 정보의 아이디로 로그인을 시도할 시, 로그인이 불가하다.
+
+</details>
+<hr style="border: 3px solid #000;">
 <details>
 <summary>✅ 열차 조회 (Train search)</summary>
+  
+![스크린샷 2025-04-28 162859](https://github.com/user-attachments/assets/5b0f469e-d6c2-4c4a-9d34-5a89f74be2b3)
 
-+ 현재 위치 기반으로 반경 1km에 있는 동물병원 위치 확인 가능
+1. [조건 선택] 버튼
+  
+해당하는 조건의 선택 버튼을 눌렀을 때, ComboBox로 열차의 종류를 보여주고 선택할 수 있다. 
 
-![image](https://github.com/user-attachments/assets/81039edf-e25c-475c-9c22-65d1443570b1)
+2. 검색 버튼
 
-+ 마킹 되어있는 동물병원 클릭 시 상세 정보 확인 가능
+해당하는 열차의 이름과 출발지를 조건으로 그에 해당하는 열차이름, 출발지, 도착지, 출발시간, 도착 시간, 소요시간, 좌석, 요금을   보여준다.
 
-![image](https://github.com/user-attachments/assets/042a80ef-4af7-45ee-bd05-93d09adf6595)
+3.선택
 
-</details>
+해당하는 열차의 이름과 출발지를 조건으로 그에 해당하는 열차이름, 출발지, 도착지, 출발시간, 도착 시간, 소요시간, 좌석, 요금을   보여준다.
 
-<hr style="border: 3px solid #000;">
+4.[Seat] 버튼
 
-<details>
-<summary>✅ 구매 내역 (Board)</summary>
-
-+ 게시글 등록
-
-![write](https://github.com/user-attachments/assets/da062942-b746-4dda-ad53-fa3c0940e229)
-
-+ 게시글 수정
-
-![modify](https://github.com/user-attachments/assets/359bd10b-320c-425b-a63c-209b29028c2d)
-
-+ 게시글 삭제
-
-![delete](https://github.com/user-attachments/assets/e361e00e-e510-43bb-8890-687b01cd74ba)
-
-+ 게시글 좋아요, 댓글, 조회수
-
-![like](https://github.com/user-attachments/assets/7050481d-cfd3-40a0-9254-2442c89791ed)
+seat 버튼을 눌렀을 때, 해당하는 열차의 좌석을 고를 수 있는 ChoiceSeat 페이지로 넘어간다.
 
 </details>
 
 <hr style="border: 3px solid #000;">
 
 <details>
-<summary>✅ 결제 (Payment)</summary>
+<summary>✅ 좌석 석택 (Choice Seat)</summary>
 
-+ 카테고리별 상세 검색 가능
+1. 열차 이름
 
-![image](https://github.com/user-attachments/assets/d99b60d0-d184-4824-bf72-aa76c896c922)
+seat 버튼을 눌렀을 때, 해당하는 열차의 좌석을 고를 수 있는 ChoiceSeat 페이지로 넘어간다.
 
-+ 장바구니
+2. 좌석
 
-![장바구니](https://github.com/user-attachments/assets/b1fd8e91-61b1-4d59-b98e-c12b4032da22)
+![스크린샷 2025-04-28 163857](https://github.com/user-attachments/assets/aa9c4c6b-815e-4b9b-b257-668f67deef62)
 
-+ 결제
+Check Box로 선택할 수 있는 좌석을 중복이 되지 않게 골라 원하는 좌석을 선택한다.
 
-![결제 성공](https://github.com/user-attachments/assets/7a0f5066-5d21-47c6-8a16-f39774a4fbfc)
+3. [Pay] 버튼
+
+Pay 버튼을 눌렀을 때, Pay 페이지로 넘어간다.
+
+</details>
+
+<hr style="border: 3px solid #000;">
+
+<details>
+<summary>✅ 구매 내역 (Payment)</summary>
+  
+![스크린샷 2025-04-28 163445](https://github.com/user-attachments/assets/915d2613-2dba-4b04-a506-ab6d9601fce4)
+
+1. 구매내역
+지금까지 구매 했던 기차표의 정보를 가져온다.
+구매 날짜, 출발지, 도착지, 금액, 좌석 번호를 보여준다.
+
+2. [조회] 버튼
+
+조회 버튼을 누르면, 전체 구매 날짜와 출발지, 도착지, 금액, 좌석번호를   보여준다.
+
+3. [Train Search] 버튼 
+
+조회 버튼을 누르면, 전체 구매 날짜와 출발지, 도착지, 금액, 좌석번호를   보여준다.
 
 </details>
 <hr style="border: 3px solid #000;">
@@ -153,9 +178,9 @@ Cancel 버튼을 눌렀을 때, 다시 메인 페이지로 넘어가게 된다.
 
 | 구분 | 내용 | 설명 |
 |:---|:---|:---|
-| **Backend** | ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)  | Java 11, Spring 3.1.1, MyBatis |
+| **Backend** | ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)  | Java 17, MyBatis |
 | **Frontend** | ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) | JSP, HTML5, CSS3, JavaScript |
-| **Database** | ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) | Oracle (ojdbc8) |
+| **Database** | ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) | Oracle (ojdbc8),Oracle SQL Developer(23.1.347) |
 | **Version Control** | ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) | Git, GitHub |
 
 
@@ -164,7 +189,7 @@ Cancel 버튼을 눌렀을 때, 다시 메인 페이지로 넘어가게 된다.
 | 구분 | 도구 | 설명 |
 |:----:|:----:|:----|
 | IDE | ![STS3](https://img.shields.io/badge/STS3-F7DF1E?style=for-the-badge&logo=Spring&logoColor=black) | Spring Tool Suite 3 |
-| Database Tool | ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=black) | Oracle, MySQL 등 사용 가능 |
+| Database Tool | ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=black) | Oracle,Oracle SQL Developer(23.1.347） |
 | Server | ![Apache Tomcat](https://img.shields.io/badge/Apache_Tomcat-F8DC75?style=for-the-badge&logo=ApacheTomcat&logoColor=black) | Tomcat 서버 |
 | Build Tool | ![Maven](https://img.shields.io/badge/Apache_Maven-C71A36?style=for-the-badge&logo=ApacheMaven&logoColor=white) | Maven 프로젝트 빌드 관리 |
 
