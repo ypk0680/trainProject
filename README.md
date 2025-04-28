@@ -1,4 +1,4 @@
-
+![image](https://github.com/user-attachments/assets/97875e38-2ba5-4e33-af05-7897c51b420e)
 
 # TRAIN Project
 KG아이티뱅크에서 주간하는 프로젝트로, Eclipse 를 사용해서 GUI(Graphical User Interface)로 구현한 '기차예매'프로그램입니다. GUI로 만들기 위해서 JavaFx를 사용해서 버튼, 텍스트박스, 테이블, 이미지 뷰어, 창(윈도우) 기반 프로그램을 구축해봤습니다.
@@ -27,22 +27,17 @@ KG아이티뱅크에서 주간하는 프로젝트로, Eclipse 를 사용해서 G
 
 <details>
 <summary>✅ 로그인 (Login)</summary>
-  
-1. [Sign Up] 버튼
+
+----
+1.[Sign Up] 버튼
   
 2.[Cancel] 버튼
 
 3.[Login] 버튼
-
-
-+  로그인을 하는 과정
   
 + 아이디(TextField)와 비밀번호(PasswordField)의 fx:id를 lookup 해서 그 필드에 해당하는 값을 가지고 데이터 베이스에 저장되어 있는 [회원 정보 테이블]에 접근하여, 조회되는 아이디와 비밀번호가 존재한다면 true, 존재 하지 않는다면 false 값을 출력해준다.
-![image](https://github.com/user-attachments/assets/0e05ece0-f338-4769-9720-01d135d51195)
 
 + 버튼을 눌렀을 때, 로그인이 되어 있지 않으면 ‘로그인 오류’ 라는 MSG박스를 나타내고, 로그인 페이지로 넘어간다.
-  
-+  로그인 전 메인 페이지
   
 + 로그인을 하지 않은 상태에서는 로그인, 회원가입 버튼을 제외한 모든 버튼 기능 사용 불가
   
@@ -53,22 +48,41 @@ KG아이티뱅크에서 주간하는 프로젝트로, Eclipse 를 사용해서 G
 <hr style="border: 3px solid #000;">
 
 <details>
-<summary>✅ 내 정보 (My page)</summary>
+<summary>✅ 회원 가입 (Sign up)</summary>
+---
++ 정보 입력
 
-+ 회원 정보 수정  
-: 이름, 나이, 이메일
+회원가입 할 이름, 아이디, 비밀번호, 전화번호, 성별, 이메일, 주소를 입력한다.
 
-![image](https://github.com/user-attachments/assets/b1624cdb-8f3e-4478-a085-122e2dd10217)
++ [중복 확인] 버튼
 
-+ 비밀번호 변경  
-: 기존 비밀번호 입력 후 새 비밀번호 입력
+아이디는 유일한 값으로 잡아준다.
+중복 확인 버튼을 눌렀을 때, 기존에 아이디가 존재하면 중복이 된다는 설명을 MSG박스로 알려준다.
+아이디 Text field 부분의 내용을 지우고  requestfocus로 맞춰준다.
 
-![image](https://github.com/user-attachments/assets/df7844ea-8f56-4da5-8ff7-79e4ae28abe5)
++ 비밀번호
 
-+ 회원 탈퇴  
-: 현재 비밀번호 입력 후 회원탈퇴 가능
+아이디는 유일한 값으로 잡아준다.
+중복 확인 버튼을 눌렀을 때, 기존에 아이디가 존재하면 중복이 된다는 설명을 MSG박스로 알려준다.
+아이디 Text field 부분의 내용을 지우고  requestfocus로 맞춰준다.
 
-![image](https://github.com/user-attachments/assets/9e2ce22f-4f0b-4eca-802b-130a2b1511b3)
++ [이메일 선택] 버튼
+
+comboBox를 이용하여 이메일을 직접 입력 또는 선택할 수 있도록 한다.
+
++ [Success] 버튼
+
+Success 버튼을 눌렀을 때, 회원 가입이 성공하였다는 MSG박스로 나타내고 로그인 페이지로 넘어가게 된다. 
+
++ [Cancel] 버튼
+
+Cancel 버튼을 눌렀을 때, 다시 메인 페이지로 넘어가게 된다. 
+
+![image](https://github.com/user-attachments/assets/7663bd71-8f70-4106-86fb-8b0d1b056508)
+
+
+
+
 
 </details>
 
