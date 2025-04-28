@@ -152,7 +152,8 @@ KG아이티뱅크에서 주간하는 Eclipse 를 사용해서 만든 gui입니�
 <hr style="border: 3px solid #000;">
 
 ## 🗃 PRESENTATION
-### 📎
+### 📎[trainproject](https://docs.google.com/presentation/d/1hI2vCLWFTWVr8YAIpfm7Xa4CDafsCqKX/edit?usp=sharing&ouid=115265115342844139543&rtpof=true&sd=true)
+
 
 ## 🧶ERD ( DB 설계)
 
