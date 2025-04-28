@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/97875e38-2ba5-4e33-af05-7897c51b420e)
 
 # TRAIN Project
 KG아이티뱅크에서 주간하는 프로젝트로, Eclipse 를 사용해서 GUI(Graphical User Interface)로 구현한 '기차예매'프로그램입니다. GUI로 만들기 위해서 JavaFx를 사용해서 버튼, 텍스트박스, 테이블, 이미지 뷰어, 창(윈도우) 기반 프로그램을 구축해봤습니다.
