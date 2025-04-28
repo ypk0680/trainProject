@@ -169,6 +169,18 @@ Pay 버튼을 눌렀을 때, Pay 페이지로 넘어간다.
 </details>
 <hr style="border: 3px solid #000;">
 
+<details>
+<summary>✅ 내 티켓 (My Ticket)</summary>
+  
+  ![image](https://github.com/user-attachments/assets/44539455-7883-4018-b941-c5ed1fc0b485)
+
++  내 티켓
+미사용 티켓 정보를 보여준다.
+소요 시간, 열차 명, 탑승자 명, 좌석 번호, 출발지, 도착지, 출발시간, 도착시간을 순서대로 보여준다.
+
+</details>
+<hr style="border: 3px solid #000;">
+
 ## 🔍 참고 사이트 
 - 코레일 : https://www.royalcanin.com/kr](https://www.korail.com/)
 
