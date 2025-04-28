@@ -27,15 +27,26 @@ KG아이티뱅크에서 주간하는 프로젝트로, Eclipse 를 사용해서 G
 
 <details>
 <summary>✅ 로그인 (Login)</summary>
+  
+1. [Sign Up] 버튼
+  
+2.[Cancel] 버튼
 
- 01. [Login] 버튼
- 02. [Sign Up] 버튼
-+ 버튼을 눌렀을 때, 로그인이 되어 있지 않아서 ‘로그인 오류’ 라는 MSG박스를 나타내고, 로그인 페이지로 넘어간다.
-+ *   로그인 전 메인 페이지   *
-로그인을 하지 않은 상태에서는 로그인, 회원가입 버튼을 제외한 모든 버튼 기능 사용 불가
+3.[Login] 버튼
 
-![스크린샷 2025-04-28 150651](https://github.com/user-attachments/assets/e765de62-5d11-4fbf-809e-5c389eacd940)
 
++  로그인을 하는 과정
+  
++ 아이디(TextField)와 비밀번호(PasswordField)의 fx:id를 lookup 해서 그 필드에 해당하는 값을 가지고 데이터 베이스에 저장되어 있는 [회원 정보 테이블]에 접근하여, 조회되는 아이디와 비밀번호가 존재한다면 true, 존재 하지 않는다면 false 값을 출력해준다.
+![image](https://github.com/user-attachments/assets/0e05ece0-f338-4769-9720-01d135d51195)
+
++ 버튼을 눌렀을 때, 로그인이 되어 있지 않으면 ‘로그인 오류’ 라는 MSG박스를 나타내고, 로그인 페이지로 넘어간다.
+  
++  로그인 전 메인 페이지
+  
++ 로그인을 하지 않은 상태에서는 로그인, 회원가입 버튼을 제외한 모든 버튼 기능 사용 불가
+  
+![스크린샷 2025-04-28 160653](https://github.com/user-attachments/assets/751da45e-03bc-464f-826c-91b67607f0db)
 
 </details>
 
