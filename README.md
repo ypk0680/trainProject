@@ -189,8 +189,8 @@ Pay 버튼을 눌렀을 때, Pay 페이지로 넘어간다.
 
 | 구분 | 내용 | 설명 |
 |:---|:---|:---|
-| **Backend** | ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)  | Java 17, MyBatis |
-| **Frontend** | ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) | JSP, HTML5, CSS3, JavaScript |
+| **Backend** | ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Spring](https://img.shields.io/badge/MyBatisg-%236DB33F.svg?style=for-the-badge&logo=MyBatis&logoColor=white)  | Java 17, MyBatis, Eclipse |
+| **Frontend** | ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaFX](https://img.shields.io/badge/JavaFX-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) | JSP, HTML5, CSS3, JavaFX, scenebuilder |
 | **Database** | ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) | Oracle (ojdbc8),Oracle SQL Developer(23.1.347) |
 | **Version Control** | ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) | Git, GitHub |
 
@@ -199,7 +199,7 @@ Pay 버튼을 눌렀을 때, Pay 페이지로 넘어간다.
 
 | 구분 | 도구 | 설명 |
 |:----:|:----:|:----|
-| IDE | ![STS3](https://img.shields.io/badge/STS3-F7DF1E?style=for-the-badge&logo=Spring&logoColor=black) | Spring Tool Suite 3 |
+| IDE | ![STS3](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=Eclipse&logoColor=black) | Eclipse |
 | Database Tool | ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=black) | Oracle,Oracle SQL Developer(23.1.347） |
 | Server | ![Apache Tomcat](https://img.shields.io/badge/Apache_Tomcat-F8DC75?style=for-the-badge&logo=ApacheTomcat&logoColor=black) | Tomcat 서버 |
 | Build Tool | ![Maven](https://img.shields.io/badge/Apache_Maven-C71A36?style=for-the-badge&logo=ApacheMaven&logoColor=white) | Maven 프로젝트 빌드 관리 |
@@ -220,7 +220,8 @@ Pay 버튼을 눌렀을 때, Pay 페이지로 넘어간다.
 ## 🗃 PRESENTATION
 ### 📎[trainproject](https://docs.google.com/presentation/d/1hI2vCLWFTWVr8YAIpfm7Xa4CDafsCqKX/edit?usp=sharing&ouid=115265115342844139543&rtpof=true&sd=true)
 
+<hr style="border: 3px solid #000;">
 
 ## 🧶ERD ( DB 설계)
-
+![train-erd](https://github.com/user-attachments/assets/447eb600-63e3-46c0-a4f7-0e964fe7a55b)
 
